@@ -651,7 +651,7 @@ export function Range({
             disabled={disabled}
             max={max}
             onChange={(nextValue) => {
-              updateValue(Number(nextValue), { immediateVisual: true })
+              updateValue(Number(nextValue), { animate: true })
             }}
             onStepChange={(nextValue) => {
               updateValue(Number(nextValue), { animate: true })
